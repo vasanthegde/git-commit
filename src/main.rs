@@ -16,5 +16,4 @@ fn main() {
 
     let dirty_out = String::from_utf8_lossy(&output.stdout);
     println!("{}", dirty_out);
-    println!("Hello");
 }
